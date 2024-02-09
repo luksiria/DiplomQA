@@ -17,9 +17,9 @@
    3) Запуск тестов:  
       ./gradlew clean test '-Ddb.url=jdbc:mysql://localhost:3306/app'
    4) Сформировать отчет и открыть его в браузере:  
-      ./gradlew allureReport
+      ./gradlew allureReport  
       ./gradlew allureServe
-   5) Остановить контейнер:
+   5) Остановить контейнер:  
       docker compose down
 
 4. Работа с базой данных Postgres.
@@ -30,7 +30,7 @@
     3) Запуск тестов:  
        ./gradlew clean test '-Ddb.url=jdbc:postgresql://localhost:5432/app'
    4) Сформировать отчет и открыть его в браузере:  
-      ./gradlew allureReport
+      ./gradlew allureReport  
       ./gradlew allureServe
-   5) Остановить контейнер:
+   5) Остановить контейнер:  
       docker compose down
